@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9E7E3">
+
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="125dp"
+        android:orientation="vertical"
+        android:background="#A39165"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/listofimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:paddingTop="40dp"
+            android:text="@string/result"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="538dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="127dp"
+        tools:ignore="MissingConstraints">
+
+            <RadioGroup
+                android:id="@+id/choice"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:background="@drawable/radio_template"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/left"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:background="@drawable/toggle"
+                    android:checked="true"
+                    android:text="@string/left"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="#676151"
+                    android:textSize="18sp"/>
+                <RadioButton
+                    android:id="@+id/right"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:background="@drawable/toggle"
+                    android:textAllCaps="true"
+                    android:text="@string/right"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="#676151"
+                    android:textSize="18sp"/>
+            </RadioGroup>
+            <FrameLayout
+                android:id="@+id/choice_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="64dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="666dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="43dp"
+            android:background="#C7C0A7"
+            android:text="@string/finish"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

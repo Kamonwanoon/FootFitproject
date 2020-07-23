@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/top1"
+        android:layout_width="413dp"
+        android:layout_height="125dp"
+        android:background="#A39165"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-1dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/listofimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:paddingTop="40dp"
+            android:text="@string/guideline"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutbefore"
+        android:layout_width="422dp"
+        android:layout_height="69dp"
+        android:background="#E9E7E3"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-9dp"
+        tools:layout_editor_absoluteY="125dp">
+
+        <TextView
+            android:id="@+id/beforemea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="20dp"
+            android:text="@string/before_measurement"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pngsun"
+        android:layout_width="96dp"
+        android:layout_height="110dp"
+        android:background="#E7E2D0"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="193dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/sun"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sun"
+            android:contentDescription="@string/todo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lywell"
+        android:layout_width="321dp"
+        android:layout_height="110dp"
+        android:background="#E7E2D0"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="193dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/welllightintheroom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:text="@string/well_light_in_the_room"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pngpaper"
+        android:layout_width="96dp"
+        android:layout_height="110dp"
+        android:background="#E9E7E3"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="303dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/paper"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/paper"
+            android:contentDescription="@string/todo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lya4"
+        android:layout_width="321dp"
+        android:layout_height="110dp"
+        android:background="#E9E7E3"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="303dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/ablankofa4paper"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:background="#E9E7E3"
+            android:text="@string/a_blank_of_a4_paper"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pngfoot"
+        android:layout_width="96dp"
+        android:layout_height="110dp"
+        android:background="#E7E2D0"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="413dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/feet"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/feet"
+            android:contentDescription="@string/todo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lybear"
+        android:layout_width="321dp"
+        android:layout_height="110dp"
+        android:background="#E7E2D0"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="413dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/bearfeetwithpantsrollup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:text="@string/bear_feet_with_pants_roll_up"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pngtour"
+        android:layout_width="96dp"
+        android:layout_height="150dp"
+        android:background="#E9E7E3"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="523dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/ist"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/tourist"
+            android:contentDescription="@string/todo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyfriend"
+        android:layout_width="321dp"
+        android:layout_height="150dp"
+        android:background="#E9E7E3"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="523dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/afriendtohelp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:text="@string/a_friend_to_help"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/glpagenext"
+        android:layout_width="417dp"
+        android:layout_height="63dp"
+        android:background="#E9E7E3"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="673dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/nextguideline1"
+            android:layout_width="100dp"
+            android:layout_height="43dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="20dp"
+            android:background="#C7C0A7"
+            android:text="@string/next" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

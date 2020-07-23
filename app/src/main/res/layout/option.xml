@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9E7E3"
+    tools:context="com.example.footfit.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/top2"
+        android:layout_width="413dp"
+        android:layout_height="160dp"
+        android:background="#A39165"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-3dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/selectthesideofyourfoot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/select_the_side_of_your_foot"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/bottonls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/l_sole"
+        app:srcCompat="@drawable/l_sole"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="192dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo" />
+
+    <ImageButton
+        android:id="@+id/buttonrs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/r_sole"
+        app:srcCompat="@drawable/r_sole"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="192dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo" />
+
+    <ImageButton
+        android:id="@+id/buttonlm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/l_medial"
+        app:srcCompat="@drawable/l_medial"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="339dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo" />
+
+    <ImageButton
+        android:id="@+id/buttonrm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/r_medial"
+        app:srcCompat="@drawable/r_medial"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="339dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo" />
+
+    <ImageButton
+        android:id="@+id/buttonll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/l_lateral"
+        app:srcCompat="@drawable/l_lateral"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="495dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo" />
+
+    <ImageButton
+        android:id="@+id/buttonrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/r_lateral"
+        app:srcCompat="@drawable/r_lateral"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="495dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/nextselectfoot2"
+        android:layout_width="100dp"
+        android:layout_height="43dp"
+        android:background="#C7C0A7"
+        android:text="@string/next"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="672dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
